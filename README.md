@@ -8,15 +8,18 @@ This tool adds real cryptographic governance to open-source contributions.
 
 Wrap any code change, PR, or diff with a signed **IBA Intent Certificate** so only approved human intent can be merged.
 
+## Live Demo
+Try the governed code pipeline: [https://governinglayer.com/codeguard-html/](https://governinglayer.com/codeguard-html/)
+
 ## Features
 - Requires IBA-signed intent before any code merge
-- Prevents stealthy long-term infiltration
+- Prevents stealthy long-term infiltration and sleeper attacks
+- Detects obfuscated backdoors before merge
+- OFAC / sanctions identity check at merge gate
+- Contribution pattern anomaly detection across commit history
 - Optional safe hollowing / flagging of suspicious contributions
+- Full WitnessBound immutable audit chain — who signed, what scope, when
 - Works with GitHub PRs, diffs, or raw code files
 
 ## Quick Start
 ```bash
-git clone https://github.com/Grokipaedia/iba-code-guard.git
-cd iba-code-guard
-pip install -r requirements.txt
-python guard.py path/to/your-diff.patch
