@@ -1,5 +1,8 @@
 # iba-code-guard
 
+Patent Pending: GB2603013.0 (filed 5 Feb 2026) and related PCT applications.
+Commercial use or derivative works may require licensing. Contact IBA@intentbound.com
+
 **Verify intent before code merges. Prevent hidden actors from owning your protocol.**
 
 North Korean developers have been quietly contributing to major DeFi protocols for years — building the very infrastructure millions of users trust.
